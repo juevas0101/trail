@@ -18,4 +18,4 @@ const [cod2, num2, cost2] = lines[1].split(" ");
 
 const result = num1 * cost1 + num2 * cost2;
 
-console.log("VALOR A PAGAR: R$ "+result.toFixed(2));
+console.log(`VALOR A PAGAR: R$ ${result.toFixed(2)}`);
