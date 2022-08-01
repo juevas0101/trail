@@ -12,7 +12,7 @@
 // NUMBER = 25
 // SALARY = U$ 550.00
 
-const input = require("fs").readFileSync("ex-1008", "utf-8");
+const input = require("fs").readFileSync("./devs/ex-1008", "utf-8");
 const lines = input.split("\n");
 
 const number = lines.shift();

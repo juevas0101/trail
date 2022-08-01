@@ -11,7 +11,7 @@
 
 // TOTAL = R$ 684.54
 
-const input = require("fs").readFileSync("ex-1009", "utf-8");
+const input = require("fs").readFileSync("./devs/ex-1009", "utf-8");
 const lines = input.split("\n");
 
 const employee = lines.shift();

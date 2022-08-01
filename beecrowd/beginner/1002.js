@@ -11,7 +11,7 @@
 
 // A = 31819.3103
 
-const input = require("fs").readFileSync("ex-1002", "utf-8");
+const input = require("fs").readFileSync("./devs/ex-1002", "utf-8");
 const lines = input.split("\n");
 
 const raio = lines.shift();

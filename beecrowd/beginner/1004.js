@@ -12,7 +12,7 @@
 
 // 27
 
-const input = require("fs").readFileSync("ex-1004", "utf-8");
+const input = require("fs").readFileSync("./devs/ex-1004", "utf-8");
 const lines = input.split("\n");
 
 const a = parseInt(lines.shift());

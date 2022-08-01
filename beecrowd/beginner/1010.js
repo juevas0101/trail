@@ -10,7 +10,7 @@
 
 // VALOR A PAGAR: R$ 15.50
 
-const input = require("fs").readFileSync("ex-1010", "utf-8");
+const input = require("fs").readFileSync("./devs/ex-1010", "utf-8");
 const lines = input.split("\n");
 
 const [cod1, num1, cost1] = lines[0].split(" ");
