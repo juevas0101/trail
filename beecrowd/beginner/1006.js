@@ -1,15 +1,15 @@
-// Read 3 values, in this case, variables A, B and C, which are the three grades of a student. Then, calculate the student's average, knowing that grade A has a weight of 2, grade B has a weight of 3 and grade C 
-// has a weight of 5. Consider that each grade can go from 0 to 10.0, always with one decimal place.
+/*
+Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. 
+A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5.
+Considere que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
-// Input Examples: ------------
+Entrada
+O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão (double).
 
-// 5.0
-// 6.0
-// 7.0
-
-// Output Examples: ------------
-
-// MEDIA = 6.3
+Saída
+Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade.
+Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+*/
 
 const input = require('fs').readFileSync("./devs/ex-1006", 'utf8');
 const lines = input.split('\n');

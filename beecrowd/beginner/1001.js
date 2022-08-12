@@ -1,15 +1,15 @@
-// Read 2 integer values ​​and store them in variables A and B. Add A and B by assigning their result to variable X. Print X as shown below.
-// Don't present any message other than what is being specified and don't forget to print the end of line after the result, otherwise you
-// will get "Presentation Error".
+/*
+Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu resultado na variável X. 
+Imprima X conforme exemplo apresentado abaixo. Não apresente mensagem alguma além daquilo que está sendo especificado e não 
+esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-// Input Examples: ------------
+Entrada
+A entrada contém 2 valores inteiros.
 
-// 10
-// 9
-
-// Output Examples: ------------
-
-// X = 19
+Saída
+Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. 
+Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo
+*/
 
 const input = require("fs").readFileSync("./devs/ex-1001", "utf-8");
 const lines = input.split("\n");

@@ -1,22 +1,18 @@
-// Write a program that reads three double-precision floating-point values: A, B, and C. Then calculate and display:
-// a) The area of ​​a right triangle that has A for its base and C for its height.
-// b) the area of ​​the circle of radius C. (pi = 3.14159)
-// c) the area of ​​the trapezoid that has A and B for bases and C for height.
-// d) the area of ​​the square that has side B.
-// e) the area of ​​the rectangle that has sides A and B.
+/*
+Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
+a) a área do triângulo retângulo que tem A por base e C por altura.
+b) a área do círculo de raio C. (pi = 3.14159)
+c) a área do trapézio que tem A e B por bases e C por altura.
+d) a área do quadrado que tem lado B.
+e) a área do retângulo que tem lados A e B.
 
-// Input Examples: ------------
+Entrada
+O arquivo de entrada contém três valores com um dígito após o ponto decimal.
 
-// 3.0 4.0 5.2
-
-// Output Examples: ------------
-
-// TRIANGULO: 7.800
-// CIRCULO: 84.949
-// TRAPEZIO: 18.200
-// QUADRADO: 16.000
-// RETANGULO: 12.000
-
+Saída
+O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço
+entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
+*/
 const input = require("fs").readFileSync("./devs/ex-1012", "utf-8");
 const lines = input.split("\n");
 

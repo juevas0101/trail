@@ -1,15 +1,15 @@
-// Read 2 double-precision floating point values ​​A and B, which correspond to 2 grades of a student. Next, calculate the student's average, knowing that grade 
-// A has a weight of 3.5 and grade B has a weight of 7.5 (the sum of the weights is therefore 11).
-// Assume that each grade can go from 0 to 10.0, always with one decimal place.
+/*
+Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno.
+A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). 
+Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
-// Input Examples: ------------
+Entrada
+O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 
-// 5.0
-// 7.1
-
-// Output Examples: ------------
-
-// MEDIA = 6.43182
+Saída
+Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade.
+Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+*/
 
 const input = require("fs").readFileSync("./devs/ex-1005", "utf-8");
 const lines = input.split("\n");

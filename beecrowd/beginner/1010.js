@@ -1,14 +1,15 @@
-// In this problem, you must read the code of a part 1, the number of parts 1, the unit value of each part 1, the code of a part 2, the number
-//  of parts 2 and the unit value of each part 2. After , calculate and display the amount to be paid.
+/*
+Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e
+o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
 
-// Input Examples: ------------
+Entrada
+O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valores, respectivamente dois inteiros 
+e um valor com 2 casas decimais.
 
-// 12 1 5.30
-// 16 2 5.10
-
-// Output Examples: ------------
-
-// VALOR A PAGAR: R$ 15.50
+Saída
+A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos 
+e um espaço após o "R$". O valor deverá ser apresentado com 2 casas após o ponto.
+*/
 
 const input = require("fs").readFileSync("./devs/ex-1010", "utf-8");
 const lines = input.split("\n");

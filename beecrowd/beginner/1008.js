@@ -1,16 +1,15 @@
-// Write a program that reads an employee's number, their number of hours worked, the hourly rate they earn, and calculates that employee's salary. 
-// Next, show the employee's number and salary, to two decimal places.
+/*
+Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula 
+o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
 
-// Input Examples: ------------
+Entrada
+O arquivo de entrada contém 2 números inteiros e 1 número com duas casas decimais, representando o número, quantidade de horas trabalhadas e o valor que o 
+funcionário recebe por hora trabalhada, respectivamente.
 
-// 25
-// 100
-// 5.50
-
-// Output Examples: ------------
-
-// NUMBER = 25
-// SALARY = U$ 550.00
+Saída
+Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. 
+No caso do salário, também deve haver um espaço em branco após o $.
+*/
 
 const input = require("fs").readFileSync("./devs/ex-1008", "utf-8");
 const lines = input.split("\n");
