@@ -9,7 +9,6 @@ Saída
 Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.
 */
 
-
 const input = require("fs").readFileSync("./devs/ex-1019", "utf-8");
 const lines = input.split("\n");
 
